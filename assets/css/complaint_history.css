@@ -1,0 +1,63 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF0F5; /* Light pink background */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFE4E1; /* Light coral background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #FF69B4; /* Hot pink color */
+  text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.5); /* Text shadow */
+  font-family: 'Brush Script MT', cursive; /* Fancy cursive font */
+  font-size: 36px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #FAFAD2; /* Light yellow background */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td {
+  border: none;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #FFB6C1; /* Light pink background */
+  color: #FF1493; /* Deep pink color */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #F8BBD0; /* Light pink background for even rows */
+}
+
+tr:hover {
+  background-color: #FFC0CB; /* Pink background on hover */
+}
+
+a {
+  color: #FF69B4; /* Hot pink color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FF1493; /* Deep pink color on hover */
+}
